@@ -1,1 +1,3 @@
-RUN docker ran -d -p 2181:2181 --name zookeeper jplock/zookeeper
+From docker:latest
+
+RUN docker run -d -p 2181:2181 --name zookeeper jplock/zookeeper
